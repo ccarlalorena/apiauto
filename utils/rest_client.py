@@ -8,13 +8,12 @@ import logging
 
 import requests
 
-#from config.config import TOKEN_TODO
+from config.config import TOKEN_TODO
 from utils.logger import get_logger
 from utils.singleton import Singleton
 
 LOGGER = get_logger(__name__, logging.DEBUG)
 
-token = "92ae392a6e782dd91578e76dfa1475585d3e2cfa"
 class RestClient(metaclass=Singleton):
     """
     Class to define methods for RestClient wrapper
@@ -77,8 +76,7 @@ class RestClient(metaclass=Singleton):
 
 if __name__ == '__main__':
 
-    #token = TOKEN_TODO
-    token = "92ae392a6e782dd91578e76dfa1475585d3e2cfa"
+    token = TOKEN_TODO
     print(token)
     headers = {
         "Authorization": f"Bearer {token}"
