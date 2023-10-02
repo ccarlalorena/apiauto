@@ -12,4 +12,5 @@ print(f"TOKEN = {TOKEN_TODO}")
 HEADERS = {
     "Authorization": f"Bearer {TOKEN_TODO}"
 }
+ABS_PATH = os.path.abspath(__file__ + "../../../")
 
