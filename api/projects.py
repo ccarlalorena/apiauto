@@ -1,11 +1,16 @@
 """Module providing unittest"""
+import logging
 import unittest
-#import logging
+
 import requests
 from nose2.tools import params
 
-# Test for nose2
+from utils.logger import get_logger
 
+#from config import TOKEN_TODO
+
+# Test for nose2
+LOGGER = get_logger(__name__, logging.INFO)
 class Projects(unittest.TestCase):
     """Class representing a Project"""
 
@@ -18,6 +23,9 @@ class Projects(unittest.TestCase):
         """
         print("Setup Class")
         cls.token = "92ae392a6e782dd91578e76dfa1475585d3e2cfa"
+        #cls.token = TOKEN_TODO
+
+        print("Token from .env file: ", cls.token)
         cls.headers = {
             "Authorization": "Bearer {}".format(cls.token)
         }
@@ -49,9 +57,10 @@ class Projects(unittest.TestCase):
         body_project = {
             "name": name_project
         }
-        response = requests.post(self.url_base, headers=self.headers, data=body_project, timeout=10)
-        print(response.json())
+        response = requests.post(self.url_base, headers=self.headers, data=body_project)
+        LOGGER.info("Response for create project: %s", response.json())
         self.project_id_update = response.json()["id"]
+        LOGGER.debug("Project id generated: %s", self.project_id_update)
         self.projects_list.append(self.project_id_update)
         assert response.status_code == 200
 
@@ -94,4 +103,4 @@ class Projects(unittest.TestCase):
         for project in cls.projects_list:
             url = f"{cls.url_base}/{project}"
             requests.delete(url, headers=cls.headers, timeout=10)
-            print(f"Deleting project: {project}")
+            LOGGER.info(f"Deleting project: {project}")
