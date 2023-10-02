@@ -1,0 +1,521 @@
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X GET "https://api.todoist.com/rest/v2/tasks" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0[
+        {
+                "id": "7226524412",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574775",
+                "section_id": "134041772",
+                "parent_id": null,
+                "order": 1,
+                "content": "Hacer una revisión semanal de mis tareas y objetivos",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 2,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:23.918295Z",
+                "due": {
+                        "date": "2023-09-17",
+                        "string": "ev sun",
+                        "lang": "en",
+                        "is_recurring": true
+                },
+                "url": "https://todoist.com/showTask?id=7226524412",
+                "duration": null
+        },
+        {
+                "id": "7226524414",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574775",
+                "section_id": "134041772",
+                "parent_id": null,
+                "order": 2,
+                "content": "Añadir más rutinas _personales_",
+                "description": "Por ej. pagar los impuestos cada año, sacar la basura todas las semanas, meditar 10 min todos los días laborales a las 9 am",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:24.011312Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7226524414",
+                "duration": null
+        },
+        {
+                "id": "7226524422",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574775",
+                "section_id": "134041774",
+                "parent_id": null,
+                "order": 1,
+                "content": "[7 configuraciones reales de Todoist para robar](https://blog.doist.com/todoist-setup/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) (en inglés) 💡",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:24.178392Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7226524422",
+                "duration": null
+        },
+        {
+                "id": "7226524425",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574775",
+                "section_id": "134041774",
+                "parent_id": null,
+                "order": 2,
+                "content": "[Organizar la lista de tareas de tu familia con Todoist (Lecciones de los usuarios)](https://blog.doist.com/family-todo-list/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) (en inglés)",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:24.274867Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7226524425",
+                "duration": null
+        },
+        {
+                "id": "7226524431",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574775",
+                "section_id": "134041774",
+                "parent_id": null,
+                "order": 3,
+                "content": "Explorar las [plantillas personales](https://todoist.com/es/templates/category/personal?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=personal) curadas de Todoist",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:24.370093Z",
+                "due": null,
+                "url": "https://todoist.com/showTask?id=7226524431",
+                "duration": null
+        },
+        {
+                "id": "7226524539",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574753",
+                "section_id": null,
+                "parent_id": null,
+                "order": 1,
+                "content": "Aprender lo básico con la guía [Primeros pasos](https://todoist.com/es/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) 🔗",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 4,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:28.204604Z",
+                "due": {
+                        "date": "2023-09-13",
+                        "string": "Sep 13",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7226524539",
+                "duration": null
+        },
+        {
+                "id": "7226524543",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574753",
+                "section_id": null,
+                "parent_id": null,
+                "order": 2,
+100  5332    0  5332    0     0   6030      0 --:--:-- --:--:-- --:--:--  6045 productividad](https://todoist.com/es/productivity-methods?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)",
+                "description": "Obtén una recomendación especializada de Todoist",
+                "is_completed": false,
+                "labels": [],
+                "priority": 3,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:28.313319Z",
+                "due": {
+                        "date": "2023-09-14",
+                        "string": "Sep 14",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7226524543",
+                "duration": null
+        },
+        {
+                "id": "7226524551",
+                "assigner_id": null,
+                "assignee_id": null,
+                "project_id": "2319574753",
+                "section_id": null,
+                "parent_id": null,
+                "order": 3,
+                "content": "Descargar [aplicaciones y complementos](https://todoist.com/es/help/articles/download-todoist) adicionales para 💻,⌚️,🖥,📱 y 📧",
+                "description": "",
+                "is_completed": false,
+                "labels": [],
+                "priority": 1,
+                "comment_count": 0,
+                "creator_id": "45681280",
+                "created_at": "2023-09-13T22:32:28.503647Z",
+                "due": {
+                        "date": "2023-09-16",
+                        "string": "Sep 16",
+                        "lang": "en",
+                        "is_recurring": false
+                },
+                "url": "https://todoist.com/showTask?id=7226524551",
+                "duration": null
+        }
+]
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X GET "https://api.todoist.com/rest/v2/tasks/7226524412" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   568  100   568    0     0    754      0 --:--:-- --:--:-- --:--:--   756{
+        "id": "7226524412",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319574775",
+        "section_id": "134041772",
+        "parent_id": null,
+        "order": 1,
+        "content": "Hacer una revisión semanal de mis tareas y objetivos",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 2,
+        "comment_count": 0,
+        "creator_id": "45681280",
+        "created_at": "2023-09-13T22:32:23.918295Z",
+        "due": {
+                "date": "2023-09-17",
+                "string": "ev sun",
+                "lang": "en",
+                "is_recurring": true
+        },
+        "url": "https://todoist.com/showTask?id=7226524412",
+        "duration": null
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks" -X POST --data @project.json -H "Content-Type: application/json" -H "Authorization: Bearer $token" -H "X-Request-Id: $(uuidgen)"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   674  100   568  100   106    665    124 --:--:-- --:--:-- --:--:--   791{
+        "id": "7278109151",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319574753",
+        "section_id": null,
+        "parent_id": null,
+        "order": 4,
+        "content": "CI Buy Milk",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 4,
+        "comment_count": 0,
+        "creator_id": "45681280",
+        "created_at": "2023-10-01T19:48:12.596182Z",
+        "due": {
+                "date": "2023-10-02",
+                "string": "tomorrow at 12:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-10-02T12:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7278109151",
+        "duration": null
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ cat project.json
+{
+   "content": "CI Buy Milk",
+   "due_string": "tomorrow at 12:00",
+   "due_lang": "en",
+   "priority": 4
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks" -X POST --data @task2.json -H "Content-Type: application/json" -H "Authorization: Bearer $token" -H "X-Request-Id: $(uuidgen)"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   673  100   569  100   104    738    134 --:--:-- --:--:-- --:--:--   876{
+        "id": "7278115973",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319574753",
+        "section_id": null,
+        "parent_id": null,
+        "order": 5,
+        "content": "CI2 Buy Milk",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 4,
+        "comment_count": 0,
+        "creator_id": "45681280",
+        "created_at": "2023-10-01T19:51:18.748677Z",
+        "due": {
+                "date": "2023-10-02",
+                "string": "tomorrow at 12:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-10-02T12:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7278115973",
+        "duration": null
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks/7278115973NOEXIST" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0     27      0 --:--:-- --:--:-- --:--:--    27Task not found
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404 - Sorry, the page you're looking for isn’t here anymore</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="canonical" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=en" />
+<link rel="alternate" hreflang="x-default" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST" />
+<link rel="alternate" hreflang="sv" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=sv" />
+<link rel="alternate" hreflang="tr" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=tr" />
+<link rel="alternate" hreflang="de" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=de" />
+<link rel="alternate" hreflang="it" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=it" />
+<link rel="alternate" hreflang="zh-_CN" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=zh_CN" />
+<link rel="alternate" hreflang="ru" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=ru" />
+<link rel="alternate" hreflang="nl" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=nl" />
+<link rel="alternate" hreflang="nb" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=nb" />
+<link rel="alternate" hreflang="en" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=en" />
+<link rel="alternate" hreflang="fi" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=fi" />
+<link rel="alternate" hreflang="fr" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=fr" />
+<link rel="alternate" hreflang="zh-_TW" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=zh_TW" />
+<link rel="alternate" hreflang="da" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=da" />
+<link rel="alternate" hreflang="es" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=es" />
+<link rel="alternate" hreflang="cs" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=cs" />
+<link rel="alternate" hreflang="pl" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=pl" />
+<link rel="alternate" hreflang="pt-_BR" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=pt_BR" />
+<link rel="alternate" hreflang="ko" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=ko" />
+<link rel="alternate" hreflang="ja" href="https://api.todoist.com/rest/v2/tasks2/7278115973NOEXIST?lang=ja" />
+
+    <style type="text/css">
+    body{
+        text-align:center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size:small;
+        color:#555;
+        line-height: 20px;
+    }
+
+    h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+    }
+
+    a {
+        color: #db4c3f;
+        text-decoration: none;
+    }
+
+    p {
+        font-size:14px;
+        margin:8px 0 0;
+    }
+
+    #container{
+        margin:53px auto;
+        max-width:400px;
+        text-align:left;
+        padding: 20px;
+        background:#fff;
+    }
+
+    .logo {
+        margin-bottom: 60px;
+        margin-top: 0;
+    }
+
+    .button {
+      border: 0;
+      border-radius: 3px;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      line-height: 1.2;
+      padding: 10px 15px;
+      color: white;
+      cursor: pointer;
+      background-color: #db4c3f;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .buttons {
+      margin-top: 50px;
+      text-align: center;
+    }
+    </style>
+
+</head>
+
+<body>
+
+<body>
+
+
+
+
+<div id="container">
+    <p class="logo">
+        <a href="https://todoist.com/">
+100  4498    0  4498    0     0   9346      0 --:--:-- --:--:-- --:--:--  9390b89f.svg" height="35" />
+        </a>
+    </p>
+
+        <h3>Sorry, the page you're looking for isn’t here anymore</h3>
+
+        <p>
+
+
+            If you reached this page from another part of <a href="https://todoist.com/">todoist.com</a>,
+            please <a href="https://get.todoist.help/">let us know</a> so we can correct our mistake.
+        </p>
+</div>
+
+</body>
+
+</body>
+</html>
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks/7278115973" -X POST --data '{"content": "CI2 updated"}' -H "Content-Type: application/json" -H "Authorization: Bearer $token" -H "X-Request-Id: $(uuidgen)"         bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   594  100   568  100    26    781     35 --:--:-- --:--:-- --:--:--   819{
+        "id": "7278115973",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319574753",
+        "section_id": null,
+        "parent_id": null,
+        "order": 5,
+        "content": "CI2 updated",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 4,
+        "comment_count": 0,
+        "creator_id": "45681280",
+        "created_at": "2023-10-01T19:51:18.748677Z",
+        "due": {
+                "date": "2023-10-02",
+                "string": "tomorrow at 12:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-10-02T12:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7278115973",
+        "duration": null
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks/7278115973" -X POST --data '{"priority": "5"}' -H "Content-Type: application/json" -H "Authorization: Bearer $token" -H "X-Request-Id: $(uuidgen)"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   585  100   568  100    17    947     28 --:--:-- --:--:-- --:--:--   979{
+        "id": "7278115973",
+        "assigner_id": null,
+        "assignee_id": null,
+        "project_id": "2319574753",
+        "section_id": null,
+        "parent_id": null,
+        "order": 5,
+        "content": "CI2 updated",
+        "description": "",
+        "is_completed": false,
+        "labels": [],
+        "priority": 1,
+        "comment_count": 0,
+        "creator_id": "45681280",
+        "created_at": "2023-10-01T19:51:18.748677Z",
+        "due": {
+                "date": "2023-10-02",
+                "string": "tomorrow at 12:00",
+                "lang": "en",
+                "is_recurring": false,
+                "datetime": "2023-10-02T12:00:00"
+        },
+        "url": "https://todoist.com/showTask?id=7278115973",
+        "duration": null
+}
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl "https://api.todoist.com/rest/v2/tasks/7278115973noexists" -X POST --data '{"priority": "5"}' -H "Content-Type: application/json" -H "Authorization: Bearer $token" -H "X-Request-Id: $(uuidgen)"
+bash: uuidgen: command not found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    35  100    18  100    17     27     25 --:--:-- --:--:-- --:--:--    53task_id is invalid
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$  curl -X POST "https://api.todoist.com/rest/v2/tasks/7278115973/close" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$  curl -X POST "https://api.todoist.com/rest/v2/tasks/7278115973noexists/close" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15  100    15    0     0     23      0 --:--:-- --:--:-- --:--:--    23Task is invalid
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/2995104339/reopen" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    14  100    14    0     0     25      0 --:--:-- --:--:-- --:--:--    25Task not found
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/7278115973/reopen" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X POST "https://api.todoist.com/rest/v2/tasks/7278115973/reopen" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X DELETE "https://api.todoist.com/rest/v2/tasks/7278115973" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Carla.Illanes@CILLANESS-NH01 MINGW64 ~
+$ curl -X DELETE "https://api.todoist.com/rest/v2/tasks/7278115973noexists" -H "Authorization: Bearer $token"
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    15  100    15    0     0     17      0 --:--:-- --:--:-- --:--:--    17Task is invalid
