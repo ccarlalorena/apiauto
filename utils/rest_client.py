@@ -4,8 +4,9 @@
 rest_client.py
     wrapper from requests library
 """
-import logging
 import json
+import logging
+
 import requests
 
 from config.config import TOKEN_TODO
@@ -13,6 +14,7 @@ from utils.logger import get_logger
 from utils.singleton import Singleton
 
 LOGGER = get_logger(__name__, logging.DEBUG)
+
 
 class RestClient(metaclass=Singleton):
     """

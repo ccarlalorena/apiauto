@@ -18,7 +18,7 @@ class Sections(unittest.TestCase):
         cls.url_section = "https://api.todoist.com/rest/v2/sections"
         cls.session = requests.Session()
 
-        cls.project_id = TodoBase().get_all_projects().json()[1]["id"]
+        cls.project_id = TodoBase().get_all_projects()["body"][1]["id"]
 
     def test_create_session(self):
         """
@@ -56,3 +56,38 @@ class Sections(unittest.TestCase):
         response = RestClient().send_request("get", session=self.session, headers=HEADERS,
                                              url=url_section)
         assert response.status_code == 200
+
+    def test_delete_section(self):
+        """
+        Test delete section
+        :return:
+        """
+        response = self.create_section()
+        section_id = response["body"]["id"]
+        LOGGER.info("Section Id: %s", section_id)
+        url_section = f"{self.url_section}/{section_id}"
+        self.section_list.append(section_id)
+        response = RestClient().send_request("delete", session=self.session, headers=HEADERS,
+                                             url=url_section)
+        assert response.status_code == 204
+
+    def test_update_section(self):
+        """
+        Test update section
+        :return:
+        """
+        response = self.create_section()
+        section_id = response["body"]["id"]
+        LOGGER.info("Section Id: %s", section_id)
+        url_section = f"{self.url_section}/{section_id}"
+        data_section_update = {
+            "project_id": self.project_id,
+            "name": "SectionUpdated"
+        }
+        self.section_list.append(section_id)
+        response = RestClient().send_request("post", session=self.session, headers=HEADERS,
+                                             url=url_section, data=data_section_update)
+        assert response.status_code == 200
+
+    def create_section(self):
+        pass
