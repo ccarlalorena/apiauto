@@ -102,6 +102,21 @@ class Tasks(unittest.TestCase):
 
         #assert response.status_code == 204
 
+    def test_delete_task(self):
+        """
+        test to delete a Task
+        :return:
+        """
+        response_create_task = TodoBase().create_task()
+        task_id = response_create_task["body"]["id"]
+        LOGGER.info("Task Id for delete: %s", task_id)
+
+        url_task_delete = f"{self.url_tasks}/{task_id}"
+        response = RestClient().send_request("delete", session=self.session, headers=HEADERS,
+                                             url=url_task_delete)
+
+        #assert response_close.status_code == 204
+
     def create_task(self, project_id=None, section_id=None):
         data = {
             "content": "Task inside section",
@@ -138,3 +153,8 @@ class Tasks(unittest.TestCase):
         self.task_list.append(task_id)
 
         response_update_task = self.update_task(task_id=task_id)
+
+    @classmethod
+    def tearDownClass(cls):
+        print("tearDown Class")
+        # delete projects created
